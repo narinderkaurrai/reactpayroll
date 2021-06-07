@@ -1,0 +1,6 @@
+.fllogo {
+	width: 45vw;
+}
+.linksdiv {
+	display: unset;
+}
