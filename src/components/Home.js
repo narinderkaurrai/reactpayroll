@@ -26,12 +26,14 @@ const Home = (props) => {
 
 return(
   <div>
-  <section class="mask">
-    <div class="slider slider_with_backround_image">
-        <div class="topleft">
-            <h1>End to End <span class="colour_orange">Payroll Handling</span><br/>Related Compliances</h1>
-            <h3>To take your business further</h3>
-            <button class="button">Post A Query</button>
+  <section class="mask slider_with_backround_image">
+      <div class="container">
+        <div class="slider">
+            <div class="topleft">
+                <h1>End to End <span class="colour_orange">Payroll Handling</span><br/>Related Compliances</h1>
+                <h3>To take your business further</h3>
+                <button class="button">Post A Query</button>
+            </div>
         </div>
     </div>
   </section>
@@ -80,7 +82,7 @@ return(
                             <div class="box_content">
                                 <h4>Monthly Payroll Processing</h4>
                                 <p class="p_text1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                <p><a class="read_more1" href="#">Read More </a></p>
+                                <p class="mar_top0"><a class="read_more1" href="#">Read More </a></p>
                             </div>   
                         </div>
                         <div class="services_box sb2">
@@ -88,7 +90,7 @@ return(
                             <div class="box_content">
                                 <h4>Pay-Slips Disbursement</h4>
                                 <p class="p_text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                <p><a class="read_more" href="#">Read More </a></p>
+                                <p class="mar_top0"><a class="read_more" href="#">Read More </a></p>
                             </div>   
                         </div>  
                     </div>
@@ -98,7 +100,7 @@ return(
                             <div class="box_content">
                                 <h4>Profession Tax Return Filing</h4>
                                 <p class="p_text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                <p><a class="read_more" href="#">Read More </a></p>
+                                <p class="mar_top0"><a class="read_more" href="#">Read More </a></p>
                             </div>   
                         </div>
                         <div class="services_box sb2 margin_left">
@@ -106,7 +108,7 @@ return(
                             <div class="box_content">
                                 <h4>Quarterly Filing of eTDS returns</h4>
                                 <p class="p_text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                <p><a class="read_more" href="#">Read More </a></p>
+                                <p class="mar_top0"><a class="read_more" href="#">Read More </a></p>
                             </div>   
                         </div>  
                     </div>
@@ -232,6 +234,13 @@ return(
                                      
                                 </div>
 
+                                <div class="slider_3_div">
+                                        <img class="slider3_img" src="./img/leagalupdates.png" />
+                                        <span class="slider3_text">Legal Updates</span>
+                                        <span class="slider3_txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span>
+                                   
+                                </div>
+                                
                                 <div class="slider_3_div">
                                         <img class="slider3_img" src="./img/leagalupdates.png" />
                                         <span class="slider3_text">Legal Updates</span>
